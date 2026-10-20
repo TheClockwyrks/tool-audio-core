@@ -1,15 +1,15 @@
 //! The staged audio palette a run container is given, and the rule that selects one
 //! pack out of it.
 //!
-//! A test case declares the packs its runs may reach, and core stages those packs into
-//! the run container when the container starts, recording what it wrote in a
+//! A test case declares the packs its runs may reach, and the driver stages those packs
+//! into the run container when the container starts, recording what it wrote in a
 //! `packs.json` beside them. This module is the single definition of that tree: its
 //! root, its file names, its contract version, the manifest's shape, and the selection
-//! rule the audio binaries resolve a pack through. The writer (`crates/driver`) and the
+//! rule the audio binaries resolve a pack through. The writer (the driver) and the
 //! reader (`sfx-sample` and `music`) share it, so the two cannot disagree about what a
 //! run was given.
 //!
-//! See `apps/docs/src/content/docs/components/core/execution.md`.
+//! See <https://docs.testcabinet.ai/components/driver/execution/#staged-audio>.
 
 use std::collections::BTreeMap;
 #[cfg(feature = "cli")]

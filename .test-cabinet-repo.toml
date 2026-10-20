@@ -1,0 +1,7 @@
+# The kit this repository was rendered from, written by the superrepo's
+# scripts/repos/render.py from the answers in .copier-answers.yml. `name`
+# decides the dependency edges the dependency-edges gate permits, and `kind`
+# the shape the kit gave the repository.
+name = "tool-audio-core"
+kind = "tool"
+description = "The audio core: the shared DSP and audio-authoring library behind the sfx-synth, sfx-sample and music binaries, and the staged-audio rule the driver writes by."
