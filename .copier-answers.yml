@@ -2,7 +2,7 @@
 # kit was last rendered or updated from. Copier maintains it through the
 # superrepo's scripts/repos/render.py; a change made here is overwritten by
 # the next update.
-_commit: v0.6.3-5259-g35ac7aff7
+_commit: v0.6.3-5579-g9ecc82fe9
 _src_path: ..
 description: 'The audio core: the shared DSP and audio-authoring library behind the
     sfx-synth, sfx-sample and music binaries, and the staged-audio rule the driver
